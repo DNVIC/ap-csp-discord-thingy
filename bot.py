@@ -87,17 +87,156 @@ async def on_message(message):
                 await message.channel.send('1: A raster image is related to a raspberry')
                 await message.channel.send('2: A raster image is made of pixels while a vector image is made of formulas')
                 await message.channel.send('3: A vector image can sometimes transmit disease')
-                await message.channel.send('4: A vector image is made of pixels while a raster image is made of pixels')
-                await message.channel.send('Answer with !1, !2, !3, or !4')
-            if x == 4:
-                usersdone = 0
-                await message.channel.send('Q5:')
-                await message.channel.send('1: A raster image is related to a raspberry')
-                await message.channel.send('2: A raster image is made of pixels while a vector image is made of formulas')
-                await message.channel.send('3: A vector image can sometimes transmit disease')
-                await message.channel.send('4: A vector image is made of pixels while a raster image is made of pixels')
+                await message.channel.send('4: A vector image is made of pixels while a raster image is made of formulas')
                 await message.channel.send('Answer with !1, !2, !3, or !4')
                 
+                
+                while usersdone < users:
+                    sleep(1)
+                await message.channel.send('Answer: Plain text file')
+                x += 1
+                doneone = 0
+                donetwo = 0
+                donethree = 0
+                donefour = 0
+            if x == 4:
+                usersdone = 0
+                await message.channel.send('Q5: Which info would usually be conveyed in metadata?')
+                await message.channel.send('1: The color of certain pixels in the image')
+                await message.channel.send('2: The size of the image')
+                await message.channel.send('3: Where the image was downloaded')
+                await message.channel.send('4: How many people downloaded the image')
+                await message.channel.send('Answer with !1, !2, !3, or !4')
+                
+                
+                while usersdone < users:
+                    sleep(1)
+                await message.channel.send('Answer: Plain text file')
+                x += 1
+                doneone = 0
+                donetwo = 0
+                donethree = 0
+                donefour = 0
+            if x == 5:
+                usersdone = 0
+                await message.channel.send('Q6: What is an advantage of having more bits per pixel')
+                await message.channel.send('1: Reduced file size per pixel')
+                await message.channel.send('2: Better compression per pixel')
+                await message.channel.send('3: More bits per pixel is the difference between a vector and raster image')
+                await message.channel.send('4: More color depth')
+                await message.channel.send('Answer with !1, !2, !3, or !4')
+                
+                while usersdone < users:
+                    sleep(1)
+                await message.channel.send('Answer: Plain text file')
+                x += 1
+                doneone = 0
+                donetwo = 0
+                donethree = 0
+                donefour = 0
+            if x == 6:
+                usersdone = 0
+                await message.channel.send('Q7: What are the base colors of light?')
+                await message.channel.send('1: Red, Green, and Blue')
+                await message.channel.send('2: Red, Blue, and Yellow')
+                await message.channel.send('3: Cyan, Magenta, and Yellow')
+                await message.channel.send('4: Orange, Purple, and Green')
+                await message.channel.send('Answer with !1, !2, !3, or !4')
+                
+                while usersdone < users:
+                    sleep(1)
+                await message.channel.send('Answer: Plain text file')
+                x += 1
+                doneone = 0
+                donetwo = 0
+                donethree = 0
+                donefour = 0
+            if x == 7:
+                usersdone = 0
+                await message.channel.send('Q8 & 9: Why are the printer\'s colors the secondary colors of RGB?')
+                await message.channel.send('1: The printer wants to feel unique')
+                await message.channel.send('2: ')
+                await message.channel.send('3: Cyan, Magenta, and Yellow')
+                await message.channel.send('4: Orange, Purple, and Green')
+                await message.channel.send('Answer with !1, !2, !3, or !4')
+                
+                while usersdone < users:
+                    sleep(1)
+                await message.channel.send('Answer: Plain text file')
+                x += 1
+                doneone = 0
+                donetwo = 0
+                donethree = 0
+                donefour = 0
+            if x == 8:
+                usersdone = 0
+                await message.channel.send('Q10: What are the base colors of light?')
+                await message.channel.send('1: Red, Green, and Blue')
+                await message.channel.send('2: Red, Blue, and Yellow')
+                await message.channel.send('3: Cyan, Magenta, and Yellow')
+                await message.channel.send('4: Orange, Purple, and Green')
+                await message.channel.send('Answer with !1, !2, !3, or !4')
+                
+                while usersdone < users:
+                    sleep(1)
+                await message.channel.send('Answer: Plain text file')
+                x += 1
+                doneone = 0
+                donetwo = 0
+                donethree = 0
+                donefour = 0
+            if x == 9:
+                usersdone = 0
+                await message.channel.send('Q11: What are the base colors of light?')
+                await message.channel.send('1: Red, Green, and Blue')
+                await message.channel.send('2: Red, Blue, and Yellow')
+                await message.channel.send('3: Cyan, Magenta, and Yellow')
+                await message.channel.send('4: Orange, Purple, and Green')
+                await message.channel.send('Answer with !1, !2, !3, or !4')
+            if x == 10:
+                usersdone = 0
+                await message.channel.send('Q12: What is 101110101101 in hex')
+                await message.channel.send('1: BAD')
+                await message.channel.send('2: FAD')
+                await message.channel.send('3: CAD')
+                await message.channel.send('4: RAD')
+                await message.channel.send('Answer with !1, !2, !3, or !4')
+                
+                while usersdone < users:
+                    sleep(1)
+                await message.channel.send('Answer: Plain text file')
+                x += 1
+                doneone = 0
+                donetwo = 0
+                donethree = 0
+                donefour = 0
+            if x == 11:
+                usersdone = 0
+                await message.channel.send('Q13: What are the base colors of light?')
+                await message.channel.send('1: Red, Green, and Blue')
+                await message.channel.send('2: Red, Blue, and Yellow')
+                await message.channel.send('3: Cyan, Magenta, and Yellow')
+                await message.channel.send('4: Orange, Purple, and Green')
+                await message.channel.send('**Answer with !1, !2, !3, or !4**')
+            
+                
+                while usersdone < users:
+                    sleep(1)
+                await message.channel.send('Answer: Plain text file')
+                x += 1
+                doneone = 0
+                donetwo = 0
+                donethree = 0
+                donefour = 0
+                
+                while usersdone < users:
+                    sleep(1)
+                await message.channel.send('Answer: Plain text file')
+                x += 1
+                doneone = 0
+                donetwo = 0
+                donethree = 0
+                donefour = 0
                 
                 
                 while usersdone < users:
